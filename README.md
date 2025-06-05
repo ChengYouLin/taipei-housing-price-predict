@@ -1,17 +1,16 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HR2Xz9sU)
-# [GroupID] your project title
-The goals of this project.
+# [Group1] 台北市房價與租金預測分析
+本專案旨在分析台北市房價與租金數據，並建立預測模型。專案包含數據收集、地理編碼處理、捷運站特徵提取等功能。主要目標是研究捷運站距離對房價和租金的影響，並建立有效的預測模型。
 
 ## Contributors
-|組員|系級|學號|工作分配|
-|-|-|-|-|
-|何大南|資科碩二|110753202|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張小明|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
+| 組員   | 系級   | 學號      | 工作分配         |
+| ------ | ------ | --------- | ---------------- |
+| 潘煜智 | 資科四 | 110703013 | 資料爬蟲、前處理 |
 
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+Rscript code/your_script.R --input data/rent_merge.csv --output results/performance.tsv
 ```
 
 ## Folder organization and its related description
