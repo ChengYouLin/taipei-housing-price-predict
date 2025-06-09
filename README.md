@@ -17,8 +17,6 @@ Rscript code/your_script.R --input data/rent_merge.csv --output results/performa
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
-* [台北市房價與租金預測分析-簡報](docs/1132_DS-FP_group1.pdf)
-* [台北市房價與租金預測分析-海報](docs/1132_DS_Group1_海報.png)
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
