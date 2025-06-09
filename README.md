@@ -17,6 +17,7 @@ Rscript code/your_script.R --input data/rent_merge.csv --output results/performa
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
+* Your presentation, 1132_DS-FP_groupID.ppt/pptx/pdf (i.e.,1132_DS-FP_group1.ppt), by 06.10
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
