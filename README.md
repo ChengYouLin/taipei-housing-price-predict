@@ -18,6 +18,7 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 
 ### docs
 * [台北市房價與租金預測分析-簡報](docs/1132_DS-FP_group1.pdf)
+* [台北市房價與租金預測分析-海報](docs/1132_DS_Group1_海報.png)
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
