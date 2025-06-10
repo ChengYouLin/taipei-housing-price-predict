@@ -84,7 +84,7 @@ Rscript xgb_train_script.R
 - 原始資料多為結構化表格（CSV）
 - 欄位：地區、租賃年月日、建物型態、租賃住宅服務、總樓層、建物面積、屋齡、附屬設備、捷運距離等
 
----
+
 
 ## Preprocessing & EDA
 ### 缺失值處理
@@ -104,7 +104,7 @@ Rscript xgb_train_script.R
 - 各地區/房型/建物類型比例
 - 熱力圖觀察變數間關聯
 
----
+
 
 ## Modeling
 
@@ -131,7 +131,7 @@ Rscript xgb_train_script.R
 - 前 20 大特徵合計貢獻 98.8% 模型效能
 - 捷運距離：「捷運站距離(公尺)」被證實對租金預測有明顯貢獻（Gain 約 2%）
 
----
+
 
 ## 統計顯著性檢定
 
@@ -139,7 +139,7 @@ Rscript xgb_train_script.R
 - 以 bootstrap 重抽樣 30,000 次評估 RMSE 差異 Δ，計算 95% 信賴區間與 p-value
 - 結論：移除任一特徵組合後模型效能皆未顯著提升
 
----
+
 
 ## Results
 
@@ -157,7 +157,7 @@ Rscript xgb_train_script.R
 
 > 結論：LightGBM 與 XGBoost 均大幅優於 null model，平均預測誤差降低約 10,000 元。LightGBM 控制 RMSE 最佳，XGBoost 在 MAPE/MEAPE 稍有優勢。
 
----
+
 
 ## 統計檢定與效能提升
 
@@ -171,7 +171,6 @@ Rscript xgb_train_script.R
 
 - [Demo 網頁](https://lgyeee.shinyapps.io/mrt_rental_prediction/)
 
----
 
 ## Challenges
 
@@ -179,7 +178,6 @@ Rscript xgb_train_script.R
 - 地理編碼落點/地址解析誤差
 - 捷運資料需與房屋座標準確對應
 
----
 
 ## References
 
