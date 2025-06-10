@@ -7,7 +7,10 @@
 | ------ | ------ | --------- | ---------------- |
 | 潘煜智 | 資科四 | 110703013 | 資料爬蟲、前處理 |
 | 林冠儀 | 資科三 | 110703052 | modeling、前端建構 |
-
+| 徐語瑭 | 統計三 | 111304040 | 資料前處理、資料EDA、簡報、海報  |
+| 陳沛潔 | 統計三 | 111304038 | 資料前處理、資料EDA、簡報、海報 |
+| 林承佑 | 統計三 | 111304019 | 資料前處理、資料EDA、簡報、海報 |
+| 郭大呈 | 資管三 | 111306070 | 捷運資料爬蟲前處理、modeling |
 
 ## Input
 
@@ -134,9 +137,8 @@
 ## References
 
 - **Packages**：
-    - lightgbm, xgboost, dplyr, caret, ggplot2, data.table, sf, ...
+    - lightgbm, xgboost, dplyr, caret, ggplot2, data.table...
 - **相關文獻/報告**：
-    - Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects.
     - 內政部不動產交易實價查詢服務網
     - 台北捷運公司 捷運站出入口資訊
 
