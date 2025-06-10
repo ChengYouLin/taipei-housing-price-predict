@@ -6,6 +6,7 @@
 | 組員   | 系級   | 學號      | 工作分配         |
 | ------ | ------ | --------- | ---------------- |
 | 潘煜智 | 資科四 | 110703013 | 資料爬蟲、前處理 |
+| 林冠儀 | 資科三 | 110703052 | modeling、前端建構 |
 
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
