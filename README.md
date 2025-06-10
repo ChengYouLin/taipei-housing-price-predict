@@ -121,7 +121,7 @@
 
 ## Demo
 
-- [Demo 網頁（如有，請補連結）]
+- [Demo 網頁（如有，請補連結）](https://lgyeee.shinyapps.io/mrt_rental_prediction/)
 - reproduce：請見 Quick Start 指令與 code/資料目錄
 
 ---
