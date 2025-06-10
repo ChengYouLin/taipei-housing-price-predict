@@ -15,6 +15,62 @@
 | 林承佑 | 統計三 | 111304019 | 資料前處理、資料EDA、簡報、海報 |
 | 郭大呈 | 資管三 | 111306070 | 捷運資料爬蟲前處理、modeling |
 
+### 專案總覽
+
+```
+finalproject-finalproject_group1/
+├── code/
+├── data/
+│ ├── rent_mrg.csv
+│ └── docs/
+│ ├── 1132_DS-FP_group1.pdf
+│ ├── 1132_DS_Group1_海報.png
+├── model/
+│ ├── model_lgbm/
+│ ├── model_null/
+│ ├── model_xgb/
+├── my_shiny_app/
+│ ├── app.R
+│ └── modules/
+│ ├── welcome.R
+│ ├── intro.R
+│ ├── dataset.R
+│ └── model.R
+├── results/
+└── README.md
+```
+
+###### 簡報資料
+```
+data/1132_DS-FP_group1.pdf
+```
+
+###### `model/`
+- **模型相關檔案資料夾**。
+  - `model_lgbm/`：儲存 LightGBM 模型。
+  - `model_xgb/`：儲存 XGBOOST 模型。
+
+###### lgbm 訓練過程
+```
+cd model/model_lgbm
+Rscript lgb_train_script.R
+```
+
+###### xgb 訓練過程
+```
+cd model/model_xgb
+Rscript xgb_train_script.R
+```
+
+###### `my_shiny_app/`
+- **Shiny App 主程式資料夾**，負責專案互動式前端。
+  - `app.R`：Shiny 應用主程式，定義主題、UI 架構、載入各模組、總控各頁籤（如 Welcome、資料說明、模型頁等）。
+  - `modules/`：Shiny 子模組，將頁面內容拆分維護。
+    - `welcome.R`：首頁簡介與專案動機。
+    - `intro.R`：專案背景與分析目標。
+    - `dataset.R`：數據來源、特徵說明、前處理細節。
+    - `model.R`：模型架構、特徵選擇、訓練與評估結果。
+
 ## Input
 
 ### Data Source
@@ -60,7 +116,7 @@
   - LightGBM：num_leaves, learning_rate, min_data_in_leaf, feature_fraction, nrounds
   - XGBoost：eta, max_depth, subsample, colsample_bytree
 
-### 特徵篩選（部分展示）
+### Feature selection（部分展示）
 
 | Feature          | Gain    | Cover | Frequency |
 |------------------|---------|-------|-----------|
@@ -115,7 +171,6 @@
 
 - [Demo 網頁](https://lgyeee.shinyapps.io/mrt_rental_prediction/)
 
-
 ---
 
 ## Challenges
@@ -134,47 +189,5 @@
     - 內政部不動產交易實價查詢服務網
     - 台北捷運公司 捷運站出入口資訊
 
----
-# 專案架構說明
 
-本專案「台北市房價與租金預測分析」旨在分析台北市房價與租金數據，建立預測模型，並以 Shiny App 提供互動式網頁呈現。以下說明專案的主要目錄結構及各資料夾/檔案功能：
 
-## 1. 專案總覽
-
-```
-finalproject-finalproject_group1/
-├── README.md
-├── my_shiny_app/
-│   ├── app.R
-│   └── modules/
-│       ├── welcome.R
-│       ├── intro.R
-│       ├── dataset.R
-│       └── model.R
-├── model/
-│   └── model_lgbm/
-│       └── lgbm_feature_order.txt
-└── (其他資料或程式)
-```
-
----
-
-## 2. 各目錄/檔案功能說明
-
-### `README.md`
-- 專案總覽、背景、數據來源、處理流程、模型說明、專案成員與分工、摘要與附錄。
-- 建議先閱讀本檔案快速了解專案全貌。
-
-### `my_shiny_app/`
-- **Shiny App 主程式資料夾**，負責專案互動式前端。
-  - `app.R`：Shiny 應用主程式，定義主題、UI 架構、載入各模組、總控各頁籤（如 Welcome、資料說明、模型頁等）。
-  - `modules/`：Shiny 子模組，將頁面內容拆分維護。
-    - `welcome.R`：首頁簡介與專案動機。
-    - `intro.R`：專案背景與分析目標。
-    - `dataset.R`：數據來源、特徵說明、前處理細節。
-    - `model.R`：模型架構、特徵選擇、訓練與評估結果。
-
-### `model/`
-- **模型相關檔案資料夾**。
-  - `model_lgbm/`：儲存 LightGBM 模型。
-  - `model_xgb/`：儲存 XGBOOST 模型。
