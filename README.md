@@ -10,9 +10,9 @@
 | ------ | ------ | --------- | ---------------- |
 | 潘煜智 | 資科四 | 110703013 | 資料爬蟲、前處理 |
 | 林冠儀 | 資科三 | 110703052 | modeling、前端建構 |
-| 徐語瑭 | 統計三 | 111304040 | 資料前處理、資料EDA、簡報、海報  |
-| 陳沛潔 | 統計三 | 111304038 | 資料前處理、資料EDA、簡報、海報 |
-| 林承佑 | 統計三 | 111304019 | 資料前處理、資料EDA、簡報、海報 |
+| 徐語瑭 | 統計三 | 111304040 | 資料EDA、簡報、海報  |
+| 陳沛潔 | 統計三 | 111304038 | 資料EDA、簡報、海報 |
+| 林承佑 | 統計三 | 111304019 | 資料前處理、資料EDA、海報 |
 | 郭大呈 | 資管三 | 111306070 | 捷運資料爬蟲前處理、modeling |
 
 ---
@@ -24,22 +24,24 @@
 ```
 finalproject-finalproject_group1/
 ├── code/
+│   └── data_clean_version1.R
 ├── data/
-│ ├── rent_mrg.csv
-│ └── docs/
-│ ├── 1132_DS-FP_group1.pdf
-│ ├── 1132_DS_Group1_海報.png
+│   ├── rent_mrg.csv
+│   └── docs/
+│       ├── 1132_DS-FP_group1.pdf
+│       ├── 1132_DS_Group1_海報.png
+│       └── 房屋資料_欄位說明.xlsx
 ├── model/
-│ ├── model_lgbm/
-│ ├── model_null/
-│ ├── model_xgb/
+│   ├── model_lgbm/
+│   ├── model_null/
+│   └── model_xgb/
 ├── my_shiny_app/
-│ ├── app.R
-│ └── modules/
-│ ├── welcome.R
-│ ├── intro.R
-│ ├── dataset.R
-│ └── model.R
+│   ├── app.R
+│   └── modules/
+│       ├── welcome.R
+│       ├── intro.R
+│       ├── dataset.R
+│       └── model.R
 ├── results/
 └── README.md
 ```
